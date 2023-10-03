@@ -1,0 +1,161 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    height: 40px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info .menuItem {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000;
+    font-size: 21px;
+}
+
+.info .menuItem:hover {
+    color: #1717ed;
+}
+
+
+.scearch input {
+    border: none;
+    padding: 10px;
+    color: #000;
+    background-color: #ccc;
+    opacity: calc(50%);
+}
+
+.scearch{
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 10px;
+
+}
+
+.list{
+    border-bottom: 1px solid #000;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+}
+
+.list ul li:hover{
+    color: orangered;
+}
+
+.sechimBox{
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.sechim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    width: 80px;
+    font-size: 10px;
+    border: 1px solid orange;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background-color: aquamarine;
+}
+.kategoriBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.kategori{
+    border: 1px solid black;
+    padding: 10px 80px 10px 80px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cartBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.cart1 {
+    background-color: #e9880a;
+    width: 350px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.cart2 {
+    background-color: #ef3b3b;
+    width: 350px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.cart3 {
+    background-color: #36cddd;
+    width: 350px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.cart4 {
+    background-color: #e638bb;
+    width: 350px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.cart5 {
+    background-color: #15c6d9;
+    width: 350px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.cart6 {
+    background-color: #90ff2e;
+    width: 350px;
+    height: 200px;
+    border: 1px solid red;
+}
+
